@@ -13,7 +13,7 @@ app.config([
       .state('post', {
         url: '/posts/:id',
         templateUrl: '/templates/posts.html',
-        controller: 'PostsCtr'
+        controller: 'PostsCtrl'
       });
 
       $urlRouterProvider.otherwise('home');
